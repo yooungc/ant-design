@@ -44,7 +44,7 @@ const App: React.FC = () => {
       setTimeout(() => {
         setTreeData((origin) =>
           updateTreeData(origin, key, [
-            { title: 'Child Node', key: `${key}-0` },
+            { title: 'Child Node', key: `${key}-00` },
             { title: 'Child Node', key: `${key}-1` },
           ]),
         );
